@@ -1,4 +1,4 @@
-/* pages/movies/movies.wxss */
+v/* pages/movies/movies.wxss */
 .movies-container {
   background-color: #f2f2f2;
 }

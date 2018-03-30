@@ -1,0 +1,6 @@
+{
+	"backgroundColor": "#405f80",
+	"usingComponents": {
+		"moviegrid": "/pages/movies/movie-grid/movie-grid-component"
+	}
+}

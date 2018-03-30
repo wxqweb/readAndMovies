@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+	<image src="/images/avatar/3.png" class="userinfo-avatar"></image>
+	<text class="userinfo-nickname">Hello, 三月</text>
+	<view class="usermotto">
+    <navigator url="/pages/posts/post" hover-class="navigator-hover" open-type='switchTab'>
+      <text class="motto">开启小程序之旅</text>
+    </navigator>
+		
+	</view>
+</view>

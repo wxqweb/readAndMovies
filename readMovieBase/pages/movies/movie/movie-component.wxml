@@ -1,0 +1,6 @@
+<!--pages/movies/movie/component.wxml-->
+<view class='movie-container' catchtap = "goMovieDetails" data-id = "{{movieDetails.movieId}}">
+   <image class='movie-img' src='{{movieDetails.coverageUrl}}'></image>
+   <text class='movie-title'>{{movieDetails.title}}</text>
+   <star score='{{movieDetails.average}}' stars="{{movieDetails.stars}}"></star>
+</view>

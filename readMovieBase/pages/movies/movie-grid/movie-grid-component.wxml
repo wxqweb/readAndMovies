@@ -1,0 +1,18 @@
+<!--pages/movies/movie-grid/movie-grid-component.wxml-->
+
+<scroll-view class="grid-container" scroll-y 
+ 	wx:if = "{{!loading}}"
+	bindscrolltolower="onScrollLower"
+	bindscrolltoupper="onScrollUpper">
+	<view class="grid-list">
+	    <block wx:for="{{innerMovies}}" wx:for-item="movie" wx:key="{{movieId}}">
+	    	<view class="single-view-container">
+	        	<movieitem movieDetails="{{movie}}"></movieitem>
+	    	</view>
+	    </block>
+    </view>
+    <view class="load-more" wx:if="{{movie.length > 0}}">
+    	<view class="loading" wx:if="{{moreload}}"><loading></loading></view>
+    	<text wx:else>{{lowerText}}</text>
+    </view>
+</scroll-view>

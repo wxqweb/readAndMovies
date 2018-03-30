@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "movieitem": "/pages/movies/movie/movie-component"
+  }
+}

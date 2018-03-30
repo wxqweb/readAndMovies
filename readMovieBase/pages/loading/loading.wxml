@@ -1,0 +1,11 @@
+<!--pages/loading/loading.wxml-->
+<view class="la-line-spin-clockwise-fade la-2x">
+	<view class="div div1"></view>
+	<view class="div div2"></view>
+	<view class="div div3"></view>
+	<view class="div div4"></view>
+	<view class="div div5"></view>
+	<view class="div div6"></view>
+	<view class="div div7"></view>
+	<view class="div div8"></view>
+</view>

@@ -1,2 +1,0 @@
-<!--pages/movies/more-movies/more-movies.wxml-->
-<moviegrid id="moviegridId" innerMovies = "{{movies}}" bindscrollLower="onScrollLowerP" bindscrolltoupper="onScrollUpperP"></moviegrid>
